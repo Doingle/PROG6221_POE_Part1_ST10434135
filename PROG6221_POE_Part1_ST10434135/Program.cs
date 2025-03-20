@@ -11,8 +11,9 @@ namespace PROG6221_POE_Part1_ST10434135
         static void Main(string[] args)
         {
 
-            CyberBotMainFlow cyberBotMainFlow = new CyberBotMainFlow();
-            cyberBotMainFlow.DisplayWelcomePage();
+            CyberBotMainFlow mainFlow = new CyberBotMainFlow();
+            mainFlow.Start();
+
 
         }
     }
